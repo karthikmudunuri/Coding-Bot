@@ -83,7 +83,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('http://localhost:5005', {
+    const response = await fetch('https://coding-bot-n0ag.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
